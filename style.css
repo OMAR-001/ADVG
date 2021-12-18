@@ -1,0 +1,113 @@
+html,body{
+    height: 100%;
+}
+
+#logo
+{
+width: 200px;
+box-shadow: none;
+
+
+}
+#maine{
+background-image: url("images/johan-van-wambeke-_2VioFUgQVg-unsplash.png");
+    height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#lnk{
+    font-size: 24px;
+    padding-right: 10px;
+    color: white;
+}
+
+#lnk:hover{
+
+    color: orangered;
+
+}
+#bn
+{
+    border: white 2px solid;
+    color: whitesmoke;
+    font-size: large;
+}
+#bn:hover
+{
+   background-color: orangered;
+}
+
+.card-title{
+    color: orangered;
+}
+
+.card-body{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.884);
+}
+.btn {
+    color: rgb(255, 255, 255);
+    border: white 1px solid;
+    text-decoration: none;
+    padding: 6px;
+    width: 100px;
+}
+
+.btn a {
+text-decoration: none;
+color: white;
+}
+
+.btn:hover{
+background-color: rgb(255, 68, 0);
+
+}
+
+#bn{
+    width: 150px;
+}
+.card img{
+    height: 290px;
+}
+
+#gall img:hover{
+    filter: brightness(90%);
+}
+
+.card,video,img,hr,#maine{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.377), 0 6px 20px 0 rgba(0, 0, 0, 0.356);
+
+}
+#maine2{
+background-image: url("images/cmophoto-net-EmVKKf3wUZQ-unsplash.jpg");        height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    }
+
+
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+      }
+      
+      /* Add some content at the bottom of the video/page */
+      .content {
+        position: fixed;
+        bottom: 0;
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+        box-shadow: none;
+      }
+
+#im{
+box-shadow: none;
+
+}
